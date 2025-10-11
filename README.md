@@ -152,14 +152,11 @@ If you have any questions, please submit an [issue](https://github.com/AMAP-ML/G
 If you find GPG or code useful, please cite
 
 ```bibtex
-@misc{chu2025GPG,
-      title={GPG: A Simple and Strong Reinforcement Learning Baseline for Model Reasoning}, 
-      author={Xiangxiang Chu and Hailang Huang and Xiao Zhang and Fei Wei and Yong Wang},
-      year={2025},
-      eprint={2504.02546},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2504.02546}, 
+@article{chu2025gpg,
+  title={Gpg: A simple and strong reinforcement learning baseline for model reasoning},
+  author={Chu, Xiangxiang and Huang, Hailang and Zhang, Xiao and Wei, Fei and Wang, Yong},
+  journal={arXiv preprint arXiv:2504.02546},
+  year={2025}
 }
 ```
 
