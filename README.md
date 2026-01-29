@@ -1,5 +1,7 @@
 <div align="center">
-  <h1 align="center">GPG: A Simple and Strong Reinforcement Learning Baseline for Model Reasoning</h1>
+<h1 align="center">
+  <a href="https://openreview.net/forum?id=inccdtfx8x">[ICLR2026]</a> GPG: A Simple and Strong Reinforcement Learning Baseline for Model Reasoning
+</h1>
   <div align="center">
         <div class="is-size-5 publication-authors">
               <span class="author-block"> <a href="https://scholar.google.com/citations?user=jn21pUsAAAAJ" target="_blank">Xiangxiang Chu</a>, </span>
@@ -12,8 +14,14 @@
               <span class="author-block">AMAP, Alibaba Group</span>
         </div>
     </div>
-   📖<a href="https://arxiv.org/abs/2504.02546">Paper <img src="http://img.shields.io/badge/cs.LG-arXiv%3A2504.02546-B31B1B.svg?link=https%3A%2F%2Farxiv.org%2Fabs%2F2504.02546"></a> | Work in progress.
+
+[//]: # (   📖<a href="https://arxiv.org/abs/2504.02546">Paper <img src="http://img.shields.io/badge/cs.LG-arXiv%3A2504.02546-B31B1B.svg?link=https%3A%2F%2Farxiv.org%2Fabs%2F2504.02546"></a> .)
 </div>
+
+## 🎉 Congratulations
+
+GPG has been accepted to ICLR 2026 and is supported by the famous VERL RL framework: https://verl.readthedocs.io/en/latest/algo/gpg.html
+
 <div>
 Reinforcement Learning (RL) can directly enhance the reasoning capabilities of large language models without extensive reliance on Supervised Fine-Tuning (SFT). In this work, we revisit the traditional Policy Gradient (PG) mechanism and propose a minimalist RL approach termed Group Policy Gradient (GPG). Unlike conventional methods, GPG directly optimize the original RL objective, thus obviating the need for surrogate loss functions. By eliminating the critic and reference models, avoiding KL divergence constraints, and addressing the advantage and gradient estimation bias, our approach significantly simplifies the training process compared to Group Relative Policy Optimization (GRPO). Our approach achieves superior performance without relying on auxiliary techniques or adjustments. As illustrated in the figure below, extensive experiments demonstrate that our method not only reduces computational costs but also consistently outperforms GRPO across various unimodal and multimodal tasks.
     <img src="docs/images/figure0.svg?_t=202504301741" alt="GPG" width="100%">
@@ -155,8 +163,8 @@ If you find GPG or code useful, please cite
 @article{chu2025gpg,
   title={Gpg: A simple and strong reinforcement learning baseline for model reasoning},
   author={Chu, Xiangxiang and Huang, Hailang and Zhang, Xiao and Wei, Fei and Wang, Yong},
-  journal={arXiv preprint arXiv:2504.02546},
-  year={2025}
+  journal={ICLR},
+  year={2026}
 }
 ```
 
